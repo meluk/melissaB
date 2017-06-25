@@ -1,0 +1,13 @@
+<div>
+  <div *ngFor='let post of posts' class="posts">
+   <h4>{{post.title}}</h4> 
+   <p>{{post.body}}</p>
+   <a > coments {{post.comments.length}} </a>
+    <div *ngFor='let coment of post.comments' class="post">
+      <app-comment [coment]='coment'></app-comment>
+    </div>
+    <button type="" class="btn btn-info" (click)="addComent()">Add Coment</button> 
+    <app-new-comment [ngStyle]="{'display': display}" (closeNewComent)="closeNComment($event, post.id)" (passComment)="addComment($event)"></app-new-comment>
+  </div>
+   
+</div>

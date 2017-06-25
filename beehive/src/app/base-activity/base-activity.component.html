@@ -1,0 +1,7 @@
+<div class="base col-md-9 rows">
+
+    <app-posts [post]='infoBee[1]' (newPost)="addPost($event)" (passComment)="addComment($event)"></app-posts>
+    <app-album [albums]='infoBee[2]' ></app-album>
+    <app-todos [todos]='infoBee[3]' (passTodo)="addTodo($event)"></app-todos>
+
+</div>

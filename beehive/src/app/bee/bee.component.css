@@ -1,0 +1,13 @@
+.bee{
+    background-color: #fff;
+    border-bottom: 2px solid #f8b32a;
+    margin-bottom: 1rem;
+    padding: 1rem 2rem;
+}
+.avatar{
+    border-radius: 12%;
+    width: 55px;
+}
+.col-md-3{
+    padding-left: 0;
+}

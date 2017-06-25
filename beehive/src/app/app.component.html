@@ -1,0 +1,5 @@
+<app-header> </app-header>
+<div class="row">
+  <app-bees [bees]='bees' (passInfo)="getInfo($event)" (passAlbum2)="getAlbum($event)"></app-bees>
+  <app-base-activity [infoBee]='infoBee' (newPost)="addPost($event)" (passTodo)="addTodo($event)" (passComment)="addComment($event)"></app-base-activity>
+</div>

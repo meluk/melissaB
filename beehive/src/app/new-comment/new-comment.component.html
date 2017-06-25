@@ -1,0 +1,7 @@
+<div>
+  new-Coment
+  <input type="title" [value]="title" (input)="title = $event.target.value" placeholder="title">
+  <textarea rows="3" cols="" placeholder="body" [value]="body" (input)="body = $event.target.value"></textarea>
+  <button (click)="modalClose()" type="" class="btn">cancela</button>
+  <button (click)="addComment()" type="" class="btn">agregar</button>
+</div>

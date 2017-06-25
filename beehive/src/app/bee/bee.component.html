@@ -1,0 +1,12 @@
+<div class="bee row">
+  <div class="col-md-3">
+    <img class="avatar"  src="{{bee.avatarUrl}}" alt="">
+  </div>
+  <div class="col-md-9">
+      <a (click)="getInfo(bee.id)"> {{bee.name}} </a>
+      <p>{{bee.username}} </p>
+      <p>{{bee.email}} </p>
+      <p>{{bee.phone}} </p>
+      <p>{{bee.address.city}} </p>
+ </div>
+</div>

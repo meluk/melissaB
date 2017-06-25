@@ -1,0 +1,10 @@
+<div class="album col-md-4">
+   <h2>Bee's Album</h2>
+    <h3>{{albums.title}}</h3>
+
+  <div *ngFor='let photo of albums.photos' class="post" class="photo">
+    <h5>{{photo.title}}</h5>
+    <app-photo [photo]='photo.url'></app-photo>
+  </div>
+ 
+</div>

@@ -1,0 +1,15 @@
+.album{
+    background-color: #f89b00;
+    min-height: 90vh;
+    color: #fff;
+}
+
+h3{
+    color: #ffdf96;
+    margin: 1rem 0 0;
+}
+
+.photo{
+    border-bottom: 2px solid #eb8c03;
+    padding: 2rem 0;
+}

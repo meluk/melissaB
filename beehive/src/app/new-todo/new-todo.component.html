@@ -1,0 +1,6 @@
+<div>
+  Add new Todo
+  <input type="title" [value]="title" (input)="title = $event.target.value" placeholder="title">
+  <button type="" class='btn btn-success' (click)='addTodo()'>Add</button>
+  <button type="" class='btn btn-danger' (click)='closeNewTodo()'>Cancel</button>
+</div>

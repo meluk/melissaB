@@ -1,0 +1,10 @@
+.navbar{
+    background-color: #4a2a5c;
+    color: #fff;
+    margin-bottom: 2px;
+    border-radius: 0;
+}
+
+.navbar-text{
+ font-family: 'Mogra', cursive;
+}

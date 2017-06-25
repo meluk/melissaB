@@ -1,0 +1,6 @@
+<div class='bees col-md-3'> 
+  <h1>Bees</h1>
+  <div *ngFor='let bee of bees'>
+   <app-bee [bee]='bee' (passInfo)="getInfo($event)"></app-bee>
+  </div> 
+</div>

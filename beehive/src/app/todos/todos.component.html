@@ -1,0 +1,10 @@
+<div  class="todos col-md-4">
+   <h2>Bee's Todos</h2>
+   <button type="" (click)="OpenNewTodo()" class='btn' placeholder='todo'>New Todo</button>
+   <app-new-todo [ngStyle]="{'display': display}" (passTodo)="addTodo($event)" (sendClose)="closeNewTodo($event)"></app-new-todo>
+
+    <div *ngFor='let todo of todos' class="post">
+       <app-todo [todo]='todo'></app-todo>
+  </div>
+
+</div>

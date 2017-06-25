@@ -1,0 +1,8 @@
+<div class="pots col-md-4">
+  <h2>Bee's Post</h2>
+   <button (click)="modalOpen()" class="btn btn-primary" type="">Add post</button>
+   <app-new-post [ngStyle]="{'display': display}" (modalClose1)="modalClose($event)" (passNewPost)="addPost($event)"></app-new-post>
+   <app-post [posts]='post' (passComment)="addComment($event)"></app-post>
+
+</div>
+
